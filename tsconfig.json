@@ -1,15 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "ES6",
-    "lib": ["es2016","dom"],
-    "outDir": "./dist",
     "typeRoots": ["node_modules/@types", "@types"],
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
     "strictNullChecks": true,
     "noImplicitAny": true
-  },
-  "exclude": ["node_modules"]
-  
+  }
 }

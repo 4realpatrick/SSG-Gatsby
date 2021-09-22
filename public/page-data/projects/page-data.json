@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-projects-index-tsx",
+    "path": "/projects/",
+    "result": {"data":{"allMarkdownRemark":{"nodes":[{"frontmatter":{"slug":"trainer-trainer","stack":"Gatsby & Shopify","title":"Trainer Trainer"},"id":"0d07e7ad-70e1-5301-b743-b8232c97c01d"},{"frontmatter":{"slug":"the-drum-stop","stack":"Next.js","title":"The Drum Stop"},"id":"fb015967-6345-5e30-b995-67f124bd1410"},{"frontmatter":{"slug":"skateboards-to-go","stack":"Vue & Firebase","title":"Skateboards2Go"},"id":"2d809bfe-01f4-54df-b631-846c114f859d"},{"frontmatter":{"slug":"retro-gaming-zone","stack":"Svelte & Firebase","title":"Retro Gaming Zone"},"id":"b4904c86-7a1b-52c0-bb7f-c244eff4b444"},{"frontmatter":{"slug":"real-kitchen-food","stack":"Gatsby & Shopify","title":"Real Kitchen Food"},"id":"d4b44c30-01a1-5174-8be7-b217595ad8d2"},{"frontmatter":{"slug":"the-dojo-coffee-house","stack":"HTML & CSS","title":"The Dojo Coffee House"},"id":"172982b2-c18e-55e6-9a4c-4e1fe8b088a1"}]},"site":{"siteMetadata":{"contact":"patrick577@gmail.com"}}},"pageContext":{}},
+    "staticQueryHashes": ["1862020765","788361223"]}

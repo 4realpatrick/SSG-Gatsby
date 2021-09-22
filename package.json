@@ -1,30 +1,42 @@
 {
-  "name": "express-tailwindcss-react",
-  "version": "1.0.0",
-  "description": "前端使用react+tailwindCSS,后端使用express作为后台",
-  "main": "src/service/index.ts",
-  "type": "module",
-  "browserslist": [
-    "Chrome > 75",
-    "ie >= 10"
-  ],
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
   "scripts": {
-    "start": "nodemon dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "author": "Patrick Li",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "gulp-watch": "^5.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "typescript": "^4.3.5"
+    "autoprefixer": "^10.3.4",
+    "gatsby": "^3.13.1",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-postcss": "^4.14.0",
+    "gatsby-plugin-sass": "^4.14.0",
+    "gatsby-plugin-sharp": "^3.14.0",
+    "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-transformer-remark": "^4.11.0",
+    "gatsby-transformer-sharp": "^3.14.0",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.2.15"
   },
   "devDependencies": {
-    "@types/express": "^4.17.13",
-    "gulp": "^4.0.2",
-    "gulp-run": "^1.7.1",
-    "nodemon": "^2.0.12"
+    "prettier": "2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
