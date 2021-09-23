@@ -38,7 +38,7 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: 'Gatsby',
+    title: 'gatsby',
     description: 'web dev portfolio',
     author: 'Patrick Li',
     copyright: `©️ copyright ${new Date().getFullYear()}`,

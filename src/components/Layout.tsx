@@ -20,7 +20,7 @@ const Layout: React.FC = ({ children }) => {
       <Navbar />
       <div className="content">
         {/* content for each page */}
-        {children}
+        { children }
       </div>
       <footer className="fixed -bottom-0 h-10 w-screen flex justify-center items-center shadow-lg border-gray-200 border-t-2 border-dotted">
         <p>{copyright}&nbsp;&nbsp;

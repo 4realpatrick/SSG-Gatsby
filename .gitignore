@@ -60,3 +60,6 @@ yarn.lock
 src/venders
 .cache-loader
 .vscode
+.cache/
+
+public/
