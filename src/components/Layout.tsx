@@ -22,7 +22,7 @@ const Layout: React.FC = ({ children }) => {
         {/* content for each page */}
         { children }
       </div>
-      <footer className="fixed -bottom-0 h-10 w-screen flex justify-center items-center shadow-lg border-gray-200 border-t-2 border-dotted">
+      <footer className="fixed -bottom-0 h-10 w-screen flex justify-center items-center shadow-lg border-gray-200 border-t-2 border-dotted bg-white">
         <p>{copyright}&nbsp;&nbsp;
           <span className="text-red-300 font-semibold">{author}</span>
         </p>
