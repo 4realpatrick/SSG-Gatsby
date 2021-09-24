@@ -9,8 +9,8 @@ const Projects: React.FC<PageProps> = ({ data }) => {
   return (
     <Layout>
       <main className="flex min-h-screen flex-col justify-center items-center">
-        <div className="text-4xl text-purple-700">project</div>
-        <div className="text-6xl text-purple-700 font-semibold">demonstration</div>
+        <div className="text-5xl text-purple-700 uppercase">project</div>
+        <div className="text-6xl text-purple-700 font-semibold capitalize">demonstration</div>
         <div className="border-purple-700 border-2 p-5 mt-4 rounded-lg">
           {
             md.allMarkdownRemark.nodes.map(item => (
@@ -23,8 +23,11 @@ const Projects: React.FC<PageProps> = ({ data }) => {
             ))
           }
         </div>
-        <div className="mt-4">
-          any issues ? contact me at {md.site.siteMetadata.contact}
+        <div className="mt-4 text-lg">
+          any issues ? contact me at 
+          <a href={md.site.siteMetadata.contact} target="_blank" className="text-blue-400 hover:underline transition-all hover:text-purple-700">
+            &nbsp;&nbsp;{md.site.siteMetadata.contact}
+          </a>
         </div>
       </main>
     </Layout>
