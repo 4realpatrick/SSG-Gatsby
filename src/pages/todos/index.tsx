@@ -4,12 +4,12 @@ const Todos:React.FC = () => {
   useEffect(()=>{
     fetch('http://localhost:3002/todos').then(res=>{
       console.log('todos:',res);
-    }).catch(error=>console.log(error))
+    }).catch(error=>console.log('Error:',error))
   },[])
   return (
     <Layout>
-      <div className="w-1/4 h-auto border-purple-700 border-2 pt-10 pl-10 m-10">
-        dsfsdfsf
+      <div className="border-purple-700 border-2 m-10 flex items-start justify-center h-96 pt-4">
+        <span className="text-5xl font-semibold capitalize">todos</span>
       </div>
     </Layout>
   )
